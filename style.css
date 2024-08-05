@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img{
+        width: 25px;
+    }
+}
+
+.wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 650px;
+    }
+}
+
+.box{
+    color: #fff;
+    
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.header{
+    background-image: url(./img/bubbles_3840x2160_hhbq0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+
+.btn1{
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: black;
+}
+
+
+.btn2{
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    background-color: rgb(195, 75, 219);
+}
