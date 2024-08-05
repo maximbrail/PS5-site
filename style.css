@@ -1,78 +1,106 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.container{
+body {
+    background-image: url(./img/bubbles_3840x2160_hhbq0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    img{
+    img {
         width: 25px;
+    }
+
+    @media (max-width: 1100px) {
+        justify-content: center;
+        gap: 20px;
     }
 }
 
-.wrap{
+.wrap {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
 
-    img{
+    img {
         width: 650px;
+
+        @media (max-width: 575px){
+            width: 450px;
+        }
+    }
+
+    @media (max-width: 1200px) {
+        flex-direction: column;
     }
 }
 
-.box{
+.box {
     color: #fff;
-    
-    h1{
+
+    h1 {
         font-size: 60px;
     }
-    p{
+
+    p {
         font-size: 20px;
+    }
+
+    @media (max-width: 1200px) {
+        text-align: center;
     }
 }
 
-.header{
-    background-image: url(./img/bubbles_3840x2160_hhbq0.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 10px;
+.header {
+    margin-top: 10px;
 
-    a{
+    a {
         text-decoration: none;
         color: #fff;
     }
 }
 
-.links{
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 
-    a{
+    a {
         text-decoration: none;
         color: white;
     }
+
+
 }
 
-.buttons{
+.buttons {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-top: 10px;
+
+    @media (max-width: 1200px) {
+        justify-content: center;
+    }
 }
 
-.btn1{
+.btn1 {
     padding: 8px 25px;
     border-radius: 8px;
     border: none;
@@ -81,7 +109,7 @@
 }
 
 
-.btn2{
+.btn2 {
     padding: 8px 25px;
     border-radius: 8px;
     border: none;
